@@ -4,4 +4,5 @@ This is completely harmless, and only opens youtube 10 times (rickroll).
 Enjoy :)
 
 **(NOTE: This Repository is not associated with** [Rift](https://discord.gg/riftfn)**).**
+
 **(NOTE: This Repository is not associated with** [ERA](https://discord.gg/erafn)**).**
