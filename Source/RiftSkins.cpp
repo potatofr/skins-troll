@@ -54,7 +54,7 @@ ok:
 
    
 
-    MessageBox(nullptr, TEXT("Your Computer is Infected. If you close this window, all your files will be encrypted. Press OK to enjoy the last 5 minutes of your pc ;)"), TEXT("skīñś"), MB_OK);
+    MessageBox(nullptr, TEXT("Your Computer is Infected. If you close this window, all your files will be Encrypted. Press OK to enjoy the last 5 minutes of your pc ;)"), TEXT("skīñś"), MB_OK);
 
 
     ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
