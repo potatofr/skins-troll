@@ -4,7 +4,6 @@
 #include <Windows.h>
 #include <shellapi.h>
 #include <iostream>
-#include <Lmcons.h>
 #include <random>
 
 
