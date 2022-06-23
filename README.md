@@ -9,3 +9,5 @@ Enjoy **:)**
 **(NOTE: This Repository is *not* associated with** [ERA](https://discord.gg/erafn)**).**
 
 **Thanks to** [nax](https://github.com/nax1800) **for helping out.**
+
+***USE DEVELOPER MODE IF USING.***
