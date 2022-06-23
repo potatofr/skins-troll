@@ -9,7 +9,6 @@
 
 
 //This is harmless, but to the 9 year old in rift, their pc is fucked.
-//Dont use this to harm anyone. Just to troll children :D
 
 bool bDeveloper = true; //don't forget to change 
 HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
