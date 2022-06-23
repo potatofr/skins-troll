@@ -10,4 +10,4 @@ Enjoy **:)**
 
 **Thanks to** [nax](https://github.com/nax1800) **for helping out.**
 
-***USE DEVELOPER MODE IF USING.***
+***ONLY TEST THIS IN DEVELOPER MODE.***
