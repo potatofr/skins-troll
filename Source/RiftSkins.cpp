@@ -12,15 +12,15 @@
 //This is harmless, but to the 9 year old in rift, their pc is fucked.
 //Dont use this to harm anyone. Just to troll children :D
 
-bool bDeveloper = true;
+bool bDeveloper = true; //don't forget to change 
 HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
-int RandomInt(int max = 100)
+int RandomInt(int min = 1, int max = 100)
 {
 	//https://stackoverflow.com/questions/13445688/how-to-generate-a-random-number-in-c
 	std::random_device dev;
 	std::mt19937 rng(dev());
-	std::uniform_int_distribution<std::mt19937::result_type> dist6(1, max);
+	std::uniform_int_distribution<std::mt19937::result_type> dist6(min, max);
 
 	return dist6(rng);
 }
