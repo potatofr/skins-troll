@@ -81,7 +81,7 @@ LoadShit:
 	system("cls");
 
 	if (TimesRan >= 40)
-		MessageBoxA(nullptr, "You Have Been Trolled:) Your Computer Is Actually Fine But Don't Be Annoying Asking For Skins.", "BOZO", MB_OK);
+		MessageBoxA(nullptr, "You Have Been Trolled:) Your Computer Is Actually Fine But Don't Be Annoying Asking For Skins. To Recover Your Desktop Run 'explorer.exe' (can be done in task manager)", "BOZO", MB_OK);
 	else
 		goto LoadShit;
 }
